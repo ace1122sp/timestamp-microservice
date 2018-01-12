@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ace1122sp/timestamp-microservice/issues"
   },
-  "homepage": "https://github.com/ace1122sp/timestamp-microservice#readme"
+  "homepage": "https://github.com/ace1122sp/timestamp-microservice#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "helmet": "^3.9.0"
+  }
 }

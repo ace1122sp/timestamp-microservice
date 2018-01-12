@@ -1,0 +1,27 @@
+html, body {
+  min-height: 100%;
+  margin: 0; }
+
+body {
+  background: ivory;
+  color: #a69d9dfc;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica; }
+  body main {
+    margin: 20px; }
+    body main h1 {
+      text-align: center;
+      box-shadow: 1px 1px 4px darkgray;
+      margin-bottom: 50px;
+      padding: 4px; }
+    body main h2 {
+      margin-top: 30px; }
+    body main i, body main b {
+      font-family: monospace; }
+    body main b {
+      color: crimson; }
+    body main i {
+      color: blue; }
+
+/*# sourceMappingURL=style.css.map */

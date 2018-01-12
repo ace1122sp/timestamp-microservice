@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>timestamp microservice</title>
+  </head>
+  <body>
+    <main>
+      <h1>Timestamp microservice - API</h1>
+      <p>You can use API by passing string parameter either as a unix timpestamp or as a natural language date.</p>
+      <p>The API will return both the Unix timestamp and the date in the normal Month, Day, Year form.</p>
+      <p>If you pass an incorrect string parameter, the API will return null values for the JSON object properties.</p>
+      <h2>Usage</h2>
+      <ul>
+        <li>natural language date: <i>https://timestamp-ms.herokuapp.com/December%2015,%202015</i></li>
+        <li>unix timestamp: <i>https://timestamp-ms.herokuapp.com/1450137600</i></li>
+      </ul>
+      <h2>Output</h2>
+        <ul>
+          <li>correct request: <b>{ "unix": 1450137600, "natural": "December 15, 2015" }</b></li>
+          <li>incorrect request: <b>{ "unix": null, "natural": null }</b></li>
+        </ul>
+    </main>
+  </body>
+</html>
