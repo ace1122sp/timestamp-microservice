@@ -16,7 +16,8 @@ body {
       margin-bottom: 50px;
       padding: 4px; }
     body main h2 {
-      margin-top: 30px; }
+      margin-top: 30px;
+      text-decoration: underline; }
     body main i, body main b {
       font-family: monospace; }
     body main b {
