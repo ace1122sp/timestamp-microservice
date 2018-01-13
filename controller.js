@@ -3,7 +3,7 @@ const express = require('express');
 const date_generator = (req, res) => {
   const param = req.params.param;
 
-  api = getDate(param);
+  const api = getDate(param);
   res.send(api);
 }
 
