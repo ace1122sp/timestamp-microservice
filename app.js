@@ -4,10 +4,9 @@ const path = require('path');
 
 const controller = require('./controller');
 
-const port = 9000;
+const port = 3000;
 
 const app = express();
-
 
 const routeOptions = {
   root: __dirname + '/public'
@@ -20,9 +19,6 @@ app.get('/', (req, res) => {
 });
 
 app.get('/:param', controller);
-
-
-
 
 app.listen(port, () => {
   console.log(`Server listening at port ${port}...`);
