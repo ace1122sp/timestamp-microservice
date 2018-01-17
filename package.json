@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/ace1122sp/timestamp-microservice/issues"
   },
-  "homepage": "https://github.com/ace1122sp/timestamp-microservice#readme",
+  "homepage": "https://big-dry.glitch.me",
   "dependencies": {
     "express": "^4.16.2",
     "helmet": "^3.9.0"
